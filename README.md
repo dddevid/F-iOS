@@ -9,7 +9,7 @@ You can add this repository to [AltStore](https://altstore.io) and [Scarlett](ht
 ### Add automatically
 
 <p align="center">
-    <a href="altstore://source?url=https://raw.githubusercontent.com/dddevid/F-iOS/main/repo.json">
+    <a href="altstore://source?url=https://dddevid.github.io/F-iOS/apps.json">
         <img src="https://user-images.githubusercontent.com/31106839/77481996-84646a80-6dfa-11ea-92cf-3b4c2e2f40b3.png" alt="Add to AltStore" height="80">
     </a>
     <a href="scarlett://source?url=https://dddevid.github.io/F-iOS/apps.json">
