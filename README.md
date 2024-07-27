@@ -4,13 +4,13 @@ This is an F-Droid like repository for iOS devices.
 
 ## Add the repository
 
-You can add this repository to [AltStore](https://altstore.io) and [Scarlett](https://usescarlet.com) using the buttons below:
+You can add this repository to [AltStore](https://altstore.io) and [Scarlett](https://scarlett-app.com) using the buttons below:
 
 ### Add automatically
 
 <p align="center">
     <a href="altstore://source?url=https://dddevid.github.io/F-iOS/apps.json">
-        <img src="https://user-images.githubusercontent.com/31106839/77481996-84646a80-6dfa-11ea-92cf-3b4c2e2f40b3.png" alt="Add to AltStore" height="80">
+        <img src="https://github.com/dddevid/F-iOS/blob/main/images/getitonaltstore.png?raw=true" alt="Add to AltStore" height="80">
     </a>
     <a href="scarlett://source?url=https://dddevid.github.io/F-iOS/apps.json">
         <img src="https://github.com/dddevid/F-iOS/blob/main/images/getitonscarlett.png?raw=true" alt="Add to Scarlett" height="80">
@@ -24,7 +24,7 @@ You can add this repository to [AltStore](https://altstore.io) and [Scarlett](ht
 1. Open AltStore on your iOS device.
 2. Go to the "Sources" tab.
 3. Tap the "+" button in the top left corner.
-4. Enter the repository URL: `https://raw.githubusercontent.com/dddevid/F-iOS/main/repo.json`
+4. Enter the repository URL: `https://dddevid.github.io/F-iOS/apps.json`
 5. Tap "Add Source".
 
 ### Scarlett
@@ -32,7 +32,7 @@ You can add this repository to [AltStore](https://altstore.io) and [Scarlett](ht
 1. Open Scarlett on your iOS device.
 2. Go to the "Sources" tab.
 3. Tap the "+" button in the top right corner.
-4. Enter the repository URL: `https://raw.githubusercontent.com/dddevid/F-iOS/main/repo.json`
+4. Enter the repository URL: `https://dddevid.github.io/F-iOS/apps.json`
 5. Tap "Add Source".
 
 ## How to contribute
