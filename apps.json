@@ -23,6 +23,22 @@
                 "https:\/\/play-lh.googleusercontent.com\/B4XluvLycATEYZyhSzxguXnw_NwK-qC6zruQUt1ACd8_wERFdL4IzSbWwE3L5mY28ZY=w2560-h1440-rw"
             ],
             "website": "https:\/\/spotube.krtirtho.dev\/"
+        },
+        {
+            "name": "PojavLauncher",
+            "bundleIdentifier": "net.kdt.pojavlaunch",
+            "developer": "artdeell",
+            "version": "2.2",
+            "versionDate": "2023-05-06T00:00:00Z",
+            "downloadURL": "https:\/\/github.com\/PojavLauncherTeam\/PojavLauncher_iOS\/releases\/download\/v2.2\/net.kdt.pojavlauncher-2.2-ios.ipa",
+            "description": "A Minecraft: Java Edition launcher for Android and iOS based on Boardwalk.",
+            "icon": "https:\/\/play-lh.googleusercontent.com\/kBKcfqoudjlMRMUogBXDp43FrgY1izzXmdP9p2smJdqF_MJrWUR7VgEXA8OPGTJQi8s=w240-h480-rw",
+            "size": 80,
+            "screenshots": [
+                "https:\/\/imag.malavida.com\/mvimgbig\/download-fs\/pojavlauncher-31995-6.jpg",
+                "https:\/\/imag.malavida.com\/mvimgbig\/download-fs\/pojavlauncher-31995-1.jpg"
+            ],
+            "website": "https:\/\/pojavlauncher.net\/"
         }
     ]
 }
