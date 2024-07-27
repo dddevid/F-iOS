@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Request to add a new app to Roblox Freeze Fix. Provide the app's website link and your email.">
+    <meta name="keywords" content="Roblox, Roblox Freeze Fix, app request, add new app, request form">
+    <meta name="author" content="Your Name">
+    <title>Make a Request - Add a New App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://yourwebsite.com/make_request.html">
+    <meta property="og:title" content="Make a Request - Add a New App">
+    <meta property="og:description" content="Request to add a new app to Roblox Freeze Fix. Provide the app's website link and your email.">
+    <meta property="og:image" content="https://yourwebsite.com/images/og-image.jpg">
+    <meta property="og:url" content="https://yourwebsite.com/make_request.html">
+</head>
+<body>
+    <header>
+        <h1>Make a Request</h1>
+        <p>Request to add a new app to Roblox Freeze Fix by providing the app's website link and your email.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Request Form</h2>
+            <form id="request-form">
+                <div>
+                    <label for="app-link">App Website Link:</label>
+                    <input type="url" id="app-link" name="app_link" required>
+                </div>
+                <div>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <button type="submit" class="button">Submit Request</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script>
+        document.getElementById('request-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const appLink = document.getElementById('app-link').value;
+            const email = document.getElementById('email').value;
+
+            const webhookUrl = 'https://discord.com/api/webhooks/1266897983287459901/t5X7BDjnGIXCmZ-1JEPgzt0H0KxGrqecjFBECJa4Sw3NB9Fc-ItDVRBMtchqa4GdxB5Q';
+
+            const data = {
+                embeds: [{
+                    title: "New App Request",
+                    color: 5814783, // RGB(88, 101, 242)
+                    fields: [
+                        { name: "App Website Link", value: appLink },
+                        { name: "Email", value: email }
+                    ]
+                }]
+            };
+
+            fetch(webhookUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => {
+                if (response.ok) {
+                    alert('Request submitted successfully.');
+                } else {
+                    alert('There was an error submitting your request. Please try again later.');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('There was an error submitting your request. Please try again later.');
+            });
+        });
+    </script>
+</body>
+</html>
