@@ -2,7 +2,7 @@
     "name": "F-iOS",
     "identifier": "dd.evid.fIOS",
     "description": "F-droid like repo",
-    "iconURL": "https:\/\/github.com\/dddevid\/F-iOS\/blob\/main\/logofios.png?raw=true",
+    "iconURL": "https:\/\/github.com\/dddevid\/F-iOS\/blob\/main\/images\/logofios.png?raw=true",
     "source": "https:\/\/github.com\/dddevid\/F-iOS",
     "apps": [
         {
