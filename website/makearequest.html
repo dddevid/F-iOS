@@ -3,39 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Request to add a new app to Roblox Freeze Fix. Provide the app's website link and your email.">
-    <meta name="keywords" content="Roblox, Roblox Freeze Fix, app request, add new app, request form">
+    <meta name="description" content="Request to add an app to F-iOS.">
+    <meta name="keywords" content="request, F-iOS, add app, new app">
     <meta name="author" content="Your Name">
-    <title>Make a Request - Add a New App</title>
+    <title>Make a Request - F-iOS</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="canonical" href="https://yourwebsite.com/make_request.html">
-    <meta property="og:title" content="Make a Request - Add a New App">
-    <meta property="og:description" content="Request to add a new app to Roblox Freeze Fix. Provide the app's website link and your email.">
-    <meta property="og:image" content="https://yourwebsite.com/images/og-image.jpg">
-    <meta property="og:url" content="https://yourwebsite.com/make_request.html">
+    <link rel="canonical" href="https://dddevid.github.io/F-iOS/website/makearequest.html">
+    <meta property="og:title" content="Make a Request - F-iOS">
+    <meta property="og:description" content="Request to add an app to F-iOS.">
+    <meta property="og:image" content="https://dddevid.github.io/F-iOS/website/images/request.jpg">
+    <meta property="og:url" content="https://dddevid.github.io/F-iOS/website/makearequest.html">
 </head>
 <body>
     <header>
         <h1>Make a Request</h1>
-        <p>Request to add a new app to Roblox Freeze Fix by providing the app's website link and your email.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="makearequest.html">Make a Request</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
+    <main class="main">
         <section>
-            <h2>Request Form</h2>
+            <h2>Request to Add an App</h2>
             <form id="request-form">
-                <div>
-                    <label for="app-link">App Website Link:</label>
-                    <input type="url" id="app-link" name="app_link" required>
-                </div>
-                <div>
-                    <label for="email">Your Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div>
-                    <button type="submit" class="button">Submit Request</button>
-                </div>
+                <label for="app-link">App Website Link:</label>
+                <input type="url" id="app-link" class="textbox" placeholder="Enter the app's website URL" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" class="textbox" placeholder="Enter your email" required>
+
+                <button type="submit" class="submit-button">Submit Request</button>
             </form>
         </section>
     </main>
