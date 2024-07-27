@@ -1,25 +1,9 @@
 body {
-    cursor: url('images/pointer.png'), auto;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #0f0f0f;
     color: #e0e0e0;
-}
-
-::selection {
-    background: #ffcc00;
-    color: #000000;
-}
-
-::-moz-selection {
-    background: #ffcc00;
-    color: #000000;
-}
-
-::-webkit-selection {
-    background: #ffcc00;
-    color: #000000;
 }
 
 header {
@@ -28,7 +12,6 @@ header {
     padding: 2em 0;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
-    position: relative;
 }
 
 header h1 {
@@ -37,41 +20,27 @@ header h1 {
     text-shadow: 0 0 10px rgba(0, 75, 150, 0.8);
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.add-repo-buttons {
     display: flex;
     justify-content: center;
     gap: 1em;
+    margin: 1em 0;
 }
 
-nav ul li {
-    display: inline;
+.button img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 80px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-    color: #ffcc00;
-}
-
-.main {
+main {
     padding: 2em;
     max-width: 800px;
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 123, 255, 0.3);
-}
-
-section {
-    margin-bottom: 2em;
 }
 
 h2 {
@@ -83,21 +52,24 @@ h2 {
     text-shadow: 0 0 5px rgba(0, 75, 150, 0.7);
 }
 
-button, a.button {
-    display: inline-block;
-    background: linear-gradient(90deg, rgba(0, 123, 255, 1) 0%, rgba(0, 75, 150, 1) 100%);
-    color: #fff;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    box-shadow: 0 0 10px rgba(0, 75, 150, 0.8);
-    transition: background 0.3s ease, box-shadow 0.3s ease;
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: item;
 }
 
-a.button:hover {
-    background: linear-gradient(90deg, rgba(0, 75, 150, 1) 0%, rgba(0, 123, 255, 1) 100%);
-    box-shadow: 0 0 15px rgba(0, 123, 255, 0.9);
+ol li {
+    margin-bottom: 1em;
+    padding-left: 1.2em;
+    text-indent: -1.2em;
+    counter-increment: item;
+}
+
+ol li::before {
+    content: counter(item) ". ";
+    font-weight: bold;
+    color: #007bff;
 }
 
 .github-link {
@@ -122,53 +94,14 @@ a.button:hover {
     background: rgba(0, 0, 0, 0.4);
 }
 
-.support-buttons img {
-    width: 150px;
-    height: auto;
-    margin-right: 10px;
+.support-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
 }
 
-.support-buttons a {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-/* Styling for textbox */
-.textbox {
-    display: block;
-    width: 100%;
-    padding: 1em;
-    margin-top: 1em;
-    border: 1px solid #555;
-    border-radius: 5px;
-    background-color: #222;
-    color: #e0e0e0;
-    font-size: 1em;
-    box-shadow: 0 0 5px rgba(0, 75, 150, 0.5);
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.textbox:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
-}
-
-/* Styling for submit button */
-.submit-button {
-    display: inline-block;
-    background: linear-gradient(90deg, rgba(0, 123, 255, 1) 0%, rgba(0, 75, 150, 1) 100%);
-    color: #fff;
-    padding: 0.5em 1em;
-    border-radius: 5px;
-    font-weight: bold;
-    box-shadow: 0 0 10px rgba(0, 75, 150, 0.8);
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background 0.3s ease, box-shadow 0.3s ease;
-}
-
-.submit-button:hover {
-    background: linear-gradient(90deg, rgba(0, 75, 150, 1) 0%, rgba(0, 123, 255, 1) 100%);
-    box-shadow: 0 0 15px rgba(0, 123, 255, 0.9);
+.support-buttons a img {
+    width: auto;
+    height: 80px;
 }
