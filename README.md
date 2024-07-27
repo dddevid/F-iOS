@@ -4,7 +4,7 @@ This is an F-Droid like repository for iOS devices.
 
 ## Add the repository
 
-You can add this repository to [AltStore](https://altstore.io) and [Scarlett](https://scarlett-app.com) using the buttons below:
+You can add this repository to [AltStore](https://altstore.io) and [Scarlett](https://usescarlet.com) using the buttons below:
 
 ### Add automatically
 
