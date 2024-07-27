@@ -4,8 +4,8 @@
     "subtitle": "F-droid like repo",
     "iconURL": "https://github.com/dddevid/F-iOS/blob/main/logofios.png?raw=true",
     "website": "https://github.com/dddevid/F-iOS",
-    "sourceURL": "dsadsa",
-    "tintColor": "dsad",
+    "sourceURL": "https://raw.githubusercontent.com/dddevid/F-iOS/main/apps.json",
+    "tintColor": "242833",
     "featuredApps": [
         "Spotube"
     ],
@@ -25,3 +25,9 @@
                 "https://play-lh.googleusercontent.com/GCKrVr_uoXnGXzUVdhnXTP1o4hOUixa38bP47nFkHTaYmkCWLNJLFs_6ZMvzT-GjnOc=w2560-h1440-rw",
                 "https://play-lh.googleusercontent.com/AZ88uXEHUDDtXT6tiTDPHJKKA20KmItVfzzGlB7rEpng9cebyjA-2a3-72YOI7TtcA=w2560-h1440-rw",
                 "https://play-lh.googleusercontent.com/nXOICivoIKTBk2je6Zu3FQNPv6gWaWE1RphlAZzp4GWzEsSZA_YyMOTapxUWes6fRQ=w2560-h1440-rw",
+                "https://play-lh.googleusercontent.com/kXTvsw4d3631f9_ads5r7eHYVdYRUCHjZgl_HpJIGMsjBxwI08Aa1odbmu_VOpnP1s9S=w2560-h1440-rw",
+                "https://play-lh.googleusercontent.com/B4XluvLycATEYZyhSzxguXnw_NwK-qC6zruQUt1ACd8_wERFdL4IzSbWwE3L5mY28ZY=w2560-h1440-rw"
+            ]
+        }
+                        
+        
