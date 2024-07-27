@@ -1,27 +1,21 @@
 {
     "name": "F-iOS",
     "identifier": "dd.evid.fIOS",
-    "subtitle": "F-droid like repo",
-    "iconURL": "https://github.com/dddevid/F-iOS/blob/main/logofios.png?raw=true",
-    "website": "https://github.com/dddevid/F-iOS",
-    "sourceURL": "https://raw.githubusercontent.com/dddevid/F-iOS/main/apps.json",
-    "tintColor": "242833",
-    "featuredApps": [
-        "Spotube"
-    ],
+    "description": "F-droid like repo",
+    "icon": "https://github.com/dddevid/F-iOS/blob/main/logofios.png?raw=true",
+    "source": "https://github.com/dddevid/F-iOS",
     "apps": [
         {
             "name": "Spotube",
             "bundleIdentifier": "KRTirtho.Spotube",
-            "developerName": "KRTirtho",
+            "developer": "KRTirtho",
             "version": "3.7.1",
-            "versionDate": "06/06/2024",
-            "downloadURL": "https://github.com/KRTirtho/Spotube/releases/latest/download/Spotube-iOS.ipa",
-            "localizedDescription": "Open source Spotify client that doesn't require Premium nor uses Electron! Available for both desktop & mobile!",
-            "iconURL": "https://play-lh.googleusercontent.com/k1DjFUJQmTwKFDQ_bcVHtUQ1oe3xkfTlWBdPQvYWzvsChkvOEJKTh5PsnF_xh-9DWw=w240-h480-rw",
-            "tintColor": "242833",
+            "versionDate": "2024-06-06T00:00:00Z",
+            "download": "https://github.com/KRTirtho/Spotube/releases/latest/download/Spotube-iOS.ipa",
+            "description": "Open source Spotify client that doesn't require Premium nor uses Electron! Available for both desktop & mobile!",
+            "icon": "https://play-lh.googleusercontent.com/k1DjFUJQmTwKFDQ_bcVHtUQ1oe3xkfTlWBdPQvYWzvsChkvOEJKTh5PsnF_xh-9DWw=w240-h480-rw",
             "size": 43,
-            "screenshotURLs": [
+            "screenshots": [
                 "https://play-lh.googleusercontent.com/GCKrVr_uoXnGXzUVdhnXTP1o4hOUixa38bP47nFkHTaYmkCWLNJLFs_6ZMvzT-GjnOc=w2560-h1440-rw",
                 "https://play-lh.googleusercontent.com/AZ88uXEHUDDtXT6tiTDPHJKKA20KmItVfzzGlB7rEpng9cebyjA-2a3-72YOI7TtcA=w2560-h1440-rw",
                 "https://play-lh.googleusercontent.com/nXOICivoIKTBk2je6Zu3FQNPv6gWaWE1RphlAZzp4GWzEsSZA_YyMOTapxUWes6fRQ=w2560-h1440-rw",
@@ -29,5 +23,5 @@
                 "https://play-lh.googleusercontent.com/B4XluvLycATEYZyhSzxguXnw_NwK-qC6zruQUt1ACd8_wERFdL4IzSbWwE3L5mY28ZY=w2560-h1440-rw"
             ]
         }
-                        
-        
+    ]
+}
