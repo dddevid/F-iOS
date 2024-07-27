@@ -1,70 +1,50 @@
 # F-iOS Repo
 
-Questo è un repository di app simile a F-Droid per dispositivi iOS.
+This is an F-Droid like repository for iOS devices.
 
-## Aggiungi il repository
+## Add the repository
 
-Puoi aggiungere questo repository a [AltStore](https://altstore.io) e [Scarlett](https://scarlett-app.com) utilizzando i seguenti pulsanti:
+You can add this repository to [AltStore](https://altstore.io) and [Scarlett](https://scarlett-app.com) using the buttons below:
 
-### Aggiungi automaticamente
+### Add automatically
 
 <p align="center">
     <a href="altstore://source?url=https://raw.githubusercontent.com/dddevid/F-iOS/main/repo.json">
         <img src="https://user-images.githubusercontent.com/31106839/77481996-84646a80-6dfa-11ea-92cf-3b4c2e2f40b3.png" alt="Add to AltStore" height="80">
     </a>
     <a href="scarlett://source?url=https://dddevid.github.io/F-iOS/apps.json">
-        <img src="https://scarlett-app.com/assets/images/scarlett-small.png" alt="Add to Scarlett" height="80">
+        <img src="https://github.com/dddevid/F-iOS/blob/main/images/getitonscarlett.png?raw=true" alt="Add to Scarlett" height="80">
     </a>
 </p>
 
-## Come aggiungere manualmente il repository
+## How to add the repository manually
 
 ### AltStore
 
-1. Apri AltStore sul tuo dispositivo iOS.
-2. Vai alla scheda "Sources" (Fonti).
-3. Premi il pulsante "+" nell'angolo in alto a sinistra.
-4. Inserisci l'URL del repository: `https://raw.githubusercontent.com/dddevid/F-iOS/main/repo.json`
-5. Premi "Add Source" (Aggiungi fonte).
+1. Open AltStore on your iOS device.
+2. Go to the "Sources" tab.
+3. Tap the "+" button in the top left corner.
+4. Enter the repository URL: `https://raw.githubusercontent.com/dddevid/F-iOS/main/repo.json`
+5. Tap "Add Source".
 
 ### Scarlett
 
-1. Apri Scarlett sul tuo dispositivo iOS.
-2. Vai alla scheda "Sources" (Fonti).
-3. Premi il pulsante "+" nell'angolo in alto a destra.
-4. Inserisci l'URL del repository: `https://raw.githubusercontent.com/dddevid/F-iOS/main/repo.json`
-5. Premi "Add Source" (Aggiungi fonte).
+1. Open Scarlett on your iOS device.
+2. Go to the "Sources" tab.
+3. Tap the "+" button in the top right corner.
+4. Enter the repository URL: `https://raw.githubusercontent.com/dddevid/F-iOS/main/repo.json`
+5. Tap "Add Source".
 
-## App Disponibili
+## How to contribute
 
-### Spotube
+If you want to contribute to this repository, please fork the project, create a new branch with your changes, and open a pull request. We appreciate your contribution!
 
-- **Versione:** 3.7.1
-- **Developer:** KRTirtho
-- **Descrizione:** Open source Spotify client that doesn't require Premium nor uses Electron! Available for both desktop & mobile!
-- **[Scarica l'IPA](https://github.com/KRTirtho/Spotube/releases/latest/download/Spotube-iOS.ipa)**
-- **[Sito Web](https://spotube.krtirtho.dev)**
-
-### PojavLauncher
-
-- **Versione:** 2.2
-- **Developer:** artdeell
-- **Descrizione:** A Minecraft: Java Edition launcher for Android and iOS based on Boardwalk.
-- **[Scarica l'IPA](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v2.2/net.kdt.pojavlauncher-2.2-ios.ipa)**
-- **[Sito Web](https://pojavlauncher.net)**
-
-### ZiniTevi
-
-- **Versione:** 1.5.0
-- **Developer:** Solsona
-- **Descrizione:** Stream and download movies and TV shows for free.
-- **[Scarica l'IPA](https://github.com/swaggyP36000/TrollStore-IPAs/releases/download/02-09-2023/ZiniTeviPlusPlus-1.5.0.ipa)**
-- **[Sito Web](https://zinjtevi.github.io)**
-
-## Come contribuire
-
-Se vuoi contribuire a questo repository, per favore fai un fork del progetto, crea una nuova branch con le tue modifiche, e apri una pull request. Apprezziamo il tuo contributo!
+<p align="center">
+    <a href="https://buymeacoff.ee/devidd">
+        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" height="80">
+    </a>
+</p>
 
 ---
 
-Se hai domande o problemi, non esitare a creare una issue nel repository.
+If you have any questions or issues, feel free to create an issue in the repository.
