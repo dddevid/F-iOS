@@ -4,64 +4,86 @@
     "description": "F-droid like repo",
     "iconURL": "https:\/\/github.com\/dddevid\/F-iOS\/blob\/main\/images\/logofios.png?raw=true",
     "source": "https:\/\/github.com\/dddevid\/F-iOS",
-    "apps": [
-        {
-            "name": "Spotube",
-            "bundleIdentifier": "KRTirtho.Spotube",
-            "developer": "KRTirtho",
-            "version": "3.7.1",
-            "versionDate": "2024-06-06T00:00:00Z",
-            "downloadURL": "https:\/\/github.com\/KRTirtho\/Spotube\/releases\/latest\/download\/Spotube-iOS.ipa",
-            "description": "Open source Spotify client that doesn't require Premium nor uses Electron! Available for both desktop & mobile!",
-            "icon": "https:\/\/play-lh.googleusercontent.com\/k1DjFUJQmTwKFDQ_bcVHtUQ1oe3xkfTlWBdPQvYWzvsChkvOEJKTh5PsnF_xh-9DWw=w240-h480-rw",
-            "size": 43,
-            "screenshots": [
-                "https:\/\/play-lh.googleusercontent.com\/GCKrVr_uoXnGXzUVdhnXTP1o4hOUixa38bP47nFkHTaYmkCWLNJLFs_6ZMvzT-GjnOc=w2560-h1440-rw",
-                "https:\/\/play-lh.googleusercontent.com\/AZ88uXEHUDDtXT6tiTDPHJKKA20KmItVfzzGlB7rEpng9cebyjA-2a3-72YOI7TtcA=w2560-h1440-rw",
-                "https:\/\/play-lh.googleusercontent.com\/nXOICivoIKTBk2je6Zu3FQNPv6gWaWE1RphlAZzp4GWzEsSZA_YyMOTapxUWes6fRQ=w2560-h1440-rw",
-                "https:\/\/play-lh.googleusercontent.com\/kXTvsw4d3631f9_ads5r7eHYVdYRUCHjZgl_HpJIGMsjBxwI08Aa1odbmu_VOpnP1s9S=w2560-h1440-rw",
-                "https:\/\/play-lh.googleusercontent.com\/B4XluvLycATEYZyhSzxguXnw_NwK-qC6zruQUt1ACd8_wERFdL4IzSbWwE3L5mY28ZY=w2560-h1440-rw"
-            ],
-            "website": "https:\/\/spotube.krtirtho.dev\/"
-        },
-        {
-            "name": "PojavLauncher",
-            "bundleIdentifier": "net.kdt.pojavlaunch",
-            "developer": "artdeell",
-            "version": "2.2",
-            "versionDate": "2023-05-06T00:00:00Z",
-            "downloadURL": "https:\/\/github.com\/PojavLauncherTeam\/PojavLauncher_iOS\/releases\/download\/v2.2\/net.kdt.pojavlauncher-2.2-ios.ipa",
-            "description": "A Minecraft: Java Edition launcher for Android and iOS based on Boardwalk.",
-            "icon": "https:\/\/play-lh.googleusercontent.com\/kBKcfqoudjlMRMUogBXDp43FrgY1izzXmdP9p2smJdqF_MJrWUR7VgEXA8OPGTJQi8s=w240-h480-rw",
-            "size": 80,
-            "screenshots": [
-                "https:\/\/imag.malavida.com\/mvimgbig\/download-fs\/pojavlauncher-31995-6.jpg",
-                "https:\/\/imag.malavida.com\/mvimgbig\/download-fs\/pojavlauncher-31995-1.jpg"
-            ],
-            "website": "https:\/\/pojavlauncher.net\/"
-        },
-        {
-            "name": "ZiniTevi",
-            "bundleIdentifier": "com.zinitevi.app",
-            "developer": "Solsona",
-            "version": "1.5.0",
-            "versionDate": "2023-09-02T00:00:00Z",
-            "downloadURL": "https:\/\/github.com\/swaggyP36000\/TrollStore-IPAs\/releases\/download\/02-09-2023\/ZiniTeviPlusPlus-1.5.0.ipa",
-            "description": "Stream and download movies and TV shows for free.",
-            "icon": "https:\/\/play-lh.googleusercontent.com\/WzQkjr-wcRCTNC9qo7F8JT6diMHSvQCKwECxStPBa3mLAGXH7sIwebhXviWNt2mBneg=w240-h480-rw",
-            "size": 50,
-            "screenshots": [
-                "https:\/\/zinjtevi.github.io\/images\/screen1.png",
-                "https:\/\/zinjtevi.github.io\/images\/screen2.png",
-                "https:\/\/zinjtevi.github.io\/images\/screen3.png",
-                "https:\/\/zinjtevi.github.io\/images\/screen4.png",
-                "https:\/\/zinjtevi.github.io\/images\/screen5.png",
-                "https:\/\/zinjtevi.github.io\/images\/screen6.png",
-                "https:\/\/zinjtevi.github.io\/images\/screen7.png",
-                "https:\/\/zinjtevi.github.io\/images\/screen8.png",
-                "https:\/\/zinjtevi.github.io\/images\/screen9.png"
-            ],
-            "website": "https:\/\/zinjtevi.github.io\/"
-        }
-    ]
+    "categories": {
+        "Movies": [
+            {
+                "name": "ZiniTevi",
+                "bundleIdentifier": "com.zinitevi.app",
+                "developer": "Solsona",
+                "version": "1.5.0",
+                "versionDate": "2023-09-02T00:00:00Z",
+                "downloadURL": "https:\/\/github.com\/swaggyP36000\/TrollStore-IPAs\/releases\/download\/02-09-2023\/ZiniTeviPlusPlus-1.5.0.ipa",
+                "description": "Stream and download movies and TV shows for free.",
+                "icon": "https:\/\/play-lh.googleusercontent.com\/WzQkjr-wcRCTNC9qo7F8JT6diMHSvQCKwECxStPBa3mLAGXH7sIwebhXviWNt2mBneg=w240-h480-rw",
+                "size": 50,
+                "screenshots": [
+                    "https:\/\/zinjtevi.github.io\/images\/screen1.png",
+                    "https:\/\/zinjtevi.github.io\/images\/screen2.png",
+                    "https:\/\/zinjtevi.github.io\/images\/screen3.png",
+                    "https:\/\/zinjtevi.github.io\/images\/screen4.png",
+                    "https:\/\/zinjtevi.github.io\/images\/screen5.png",
+                    "https:\/\/zinjtevi.github.io\/images\/screen6.png",
+                    "https:\/\/zinjtevi.github.io\/images\/screen7.png",
+                    "https:\/\/zinjtevi.github.io\/images\/screen8.png",
+                    "https:\/\/zinjtevi.github.io\/images\/screen9.png"
+                ],
+                "website": "https:\/\/zinjtevi.github.io\/"
+            }
+        ],
+        "Music": [
+            {
+                "name": "Spotube",
+                "bundleIdentifier": "KRTirtho.Spotube",
+                "developer": "KRTirtho",
+                "version": "3.7.1",
+                "versionDate": "2024-06-06T00:00:00Z",
+                "downloadURL": "https:\/\/github.com\/KRTirtho\/Spotube\/releases\/latest\/download\/Spotube-iOS.ipa",
+                "description": "Open source Spotify client that doesn't require Premium nor uses Electron! Available for both desktop & mobile!",
+                "icon": "https:\/\/play-lh.googleusercontent.com\/k1DjFUJQmTwKFDQ_bcVHtUQ1oe3xkfTlWBdPQvYWzvsChkvOEJKTh5PsnF_xh-9DWw=w240-h480-rw",
+                "size": 43,
+                "screenshots": [
+                    "https:\/\/play-lh.googleusercontent.com\/GCKrVr_uoXnGXzUVdhnXTP1o4hOUixa38bP47nFkHTaYmkCWLNJLFs_6ZMvzT-GjnOc=w2560-h1440-rw",
+                    "https:\/\/play-lh.googleusercontent.com\/AZ88uXEHUDDtXT6tiTDPHJKKA20KmItVfzzGlB7rEpng9cebyjA-2a3-72YOI7TtcA=w2560-h1440-rw",
+                    "https:\/\/play-lh.googleusercontent.com\/nXOICivoIKTBk2je6Zu3FQNPv6gWaWE1RphlAZzp4GWzEsSZA_YyMOTapxUWes6fRQ=w2560-h1440-rw",
+                    "https:\/\/play-lh.googleusercontent.com\/kXTvsw4d3631f9_ads5r7eHYVdYRUCHjZgl_HpJIGMsjBxwI08Aa1odbmu_VOpnP1s9S=w2560-h1440-rw",
+                    "https:\/\/play-lh.googleusercontent.com\/B4XluvLycATEYZyhSzxguXnw_NwK-qC6zruQUt1ACd8_wERFdL4IzSbWwE3L5mY28ZY=w2560-h1440-rw"
+                ],
+                "website": "https:\/\/spotube.krtirtho.dev\/"
+            }
+        ],
+        "Games": [
+            {
+                "name": "PojavLauncher",
+                "bundleIdentifier": "net.kdt.pojavlaunch",
+                "developer": "artdeell",
+                "version": "2.2",
+                "versionDate": "2023-05-06T00:00:00Z",
+                "downloadURL": "https:\/\/github.com\/PojavLauncherTeam\/PojavLauncher_iOS\/releases\/download\/v2.2\/net.kdt.pojavlauncher-2.2-ios.ipa",
+                "description": "A Minecraft: Java Edition launcher for Android and iOS based on Boardwalk.",
+                "icon": "https:\/\/play-lh.googleusercontent.com\/kBKcfqoudjlMRMUogBXDp43FrgY1izzXmdP9p2smJdqF_MJrWUR7VgEXA8OPGTJQi8s=w240-h480-rw",
+                "size": 80,
+                "screenshots": [
+                    "https:\/\/imag.malavida.com\/mvimgbig\/download-fs\/pojavlauncher-31995-6.jpg",
+                    "https:\/\/imag.malavida.com\/mvimgbig\/download-fs\/pojavlauncher-31995-1.jpg"
+                ],
+                "website": "https:\/\/pojavlauncher.net\/"
+            },
+            {
+                "name": "Null's Brawl",
+                "bundleIdentifier": "com.nulls.brawl",
+                "developer": "nulls",
+                "version": "56.274",
+                "versionDate": "2024-07-28T00:00:00Z",
+                "downloadURL": "https:\/\/tempweb.nullsusercontent.com/ipa/brawl56.274_6422270a.ipa",
+                "description": "Null's Brawl is a Brawl Stars private server with unlimited gems, gold and boxes. Play with friends on any brawler you want.",
+                "icon": "https:\/\/nulls.gg/assets/img/nb-icon.png",
+                "size": 150,
+                "screenshots": [
+                    "https:\/\/github.com\/dddevid\/F-iOS\/blob\/main\/images\/Null's%20Brawl\/nulls%20brawl%201.jpg?raw=true",
+                    "https:\/\/github.com\/dddevid\/F-iOS\/blob\/main\/images\/Null's%20Brawl\/nulls%20brawl%202.jpg?raw=true"
+                ],
+                "website": "https:\/\/nulls.gg"
+            }
+        ]
+    }
 }
