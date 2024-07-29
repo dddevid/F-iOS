@@ -1,10 +1,9 @@
 {
-    "name": "F-iOS",
-    "identifier": "dd.evid.fIOS",
-    "description": "F-droid like repo",
-    "iconURL": "https:\/\/github.com\/dddevid\/F-iOS\/blob\/main\/images\/logofios.png?raw=true",
-    "source": "https:\/\/github.com\/dddevid\/F-iOS",
-    "apps": [
+    "META": {
+        "repoName": "F-iOS",
+        "repoIcon": "https:\/\/github.com\/dddevid\/F-iOS\/blob\/main\/images\/logofios.png?raw=true"
+    },
+    "Movies": [
         {
             "name": "ZiniTevi",
             "bundleIdentifier": "com.zinitevi.app",
@@ -27,7 +26,9 @@
                 "https:\/\/zinjtevi.github.io\/images\/screen9.png"
             ],
             "website": "https:\/\/zinjtevi.github.io\/"
-        },
+        }
+    ],
+    "Music": [
         {
             "name": "Spotube",
             "bundleIdentifier": "KRTirtho.Spotube",
@@ -46,7 +47,9 @@
                 "https:\/\/play-lh.googleusercontent.com\/B4XluvLycATEYZyhSzxguXnw_NwK-qC6zruQUt1ACd8_wERFdL4IzSbWwE3L5mY28ZY=w2560-h1440-rw"
             ],
             "website": "https:\/\/spotube.krtirtho.dev\/"
-        },
+        }
+    ],
+    "Games": [
         {
             "name": "PojavLauncher",
             "bundleIdentifier": "net.kdt.pojavlaunch",
