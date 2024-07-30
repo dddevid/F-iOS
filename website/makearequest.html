@@ -51,44 +51,48 @@
         </section>
     </main>
 
-    <script>
-        document.getElementById('request-form').addEventListener('submit', function(event) {
-            event.preventDefault();
+<script>
+    document.getElementById('request-form').addEventListener('submit', function(event) {
+        event.preventDefault();
 
-            const appLink = document.getElementById('app-link').value;
-            const email = document.getElementById('email').value;
+        const appLink = document.getElementById('app-link').value;
+        const email = document.getElementById('email').value;
 
-            const apiEndpoint = 'https://api.github.com/repos/dddevid/F-iOS/dispatches';
-            const secret = 'API_REQUEST';
+        const apiEndpoint = 'https://api.github.com/repos/dddevid/F-iOS/dispatches';
+        const secret = 'API_REQUEST';
 
-            const data = {
-                event_type: 'app_request',
-                client_payload: {
-                    app_link: appLink,
-                    email: email
-                }
-            };
+        const data = {
+            event_type: 'app_request',
+            client_payload: {
+                app_link: appLink,
+                email: email
+            }
+        };
 
-            fetch(apiEndpoint, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${secret}`
-                },
-                body: JSON.stringify(data)
-            })
-            .then(response => {
-                if (response.ok) {
-                    alert('Request submitted successfully.');
-                } else {
+        fetch(apiEndpoint, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${secret}`
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => {
+            if (response.ok) {
+                alert('Request submitted successfully.');
+            } else {
+                response.text().then(text => {
+                    console.error('Error response:', text);
                     alert('There was an error submitting your request. Please try again later.');
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                alert('There was an error submitting your request. Please try again later.');
-            });
+                });
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('There was an error submitting your request. Please try again later.');
         });
-    </script>
+    });
+</script>
+
 </body>
 </html>
