@@ -39,6 +39,16 @@
                 <button type="submit" class="submit-button">Submit Request</button>
             </form>
         </section>
+
+        <section>
+            <h2>Rules</h2>
+            <ul>
+                <li>No cracked apps. Apps should be genuine and not tampered with.</li>
+                <li>The apps do not need to be created by you. They can be developed by others.</li>
+                <li>All apps must be open-source and freely available for distribution.</li>
+                <li>Ensure that the app complies with relevant licensing and distribution agreements.</li>
+            </ul>
+        </section>
     </main>
 
     <script>
@@ -48,23 +58,22 @@
             const appLink = document.getElementById('app-link').value;
             const email = document.getElementById('email').value;
 
-            const webhookUrl = 'https://discord.com/api/webhooks/1266897983287459901/t5X7BDjnGIXCmZ-1JEPgzt0H0KxGrqecjFBECJa4Sw3NB9Fc-ItDVRBMtchqa4GdxB5Q';
+            const apiEndpoint = 'https://api.github.com/repos/dddevid/F-iOS/dispatches';
+            const secret = 'API_REQUEST';
 
             const data = {
-                embeds: [{
-                    title: "New App Request",
-                    color: 5814783, // RGB(88, 101, 242)
-                    fields: [
-                        { name: "App Website Link", value: appLink },
-                        { name: "Email", value: email }
-                    ]
-                }]
+                event_type: 'app_request',
+                client_payload: {
+                    app_link: appLink,
+                    email: email
+                }
             };
 
-            fetch(webhookUrl, {
+            fetch(apiEndpoint, {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${secret}`
                 },
                 body: JSON.stringify(data)
             })
